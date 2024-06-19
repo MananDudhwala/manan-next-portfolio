@@ -1,2 +1,2 @@
 # manan-next-portfolio
-My portfolio website, built using Next and Tailwind
+My portfolio website, built using Next.JS and Tailwind.
