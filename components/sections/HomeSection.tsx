@@ -3,7 +3,6 @@ import ContactMe from '../content/ContactMe';
 import CurrentFavTech from '../content/CurrentFavTech';
 import CurrentLearning from '../content/CurrentLearning';
 import CurrentTimeLineExp, { calculateDuration } from '../content/CurrentTimeLineExp';
-import FavProjects from '../content/FavProjects';
 import Hero from '../content/Hero';
 import AnimationContainer from '../utils/AnimationContainer';
 import { skills } from '../utils/mySkills';
@@ -25,7 +24,7 @@ const HomeSection = () => {
 
         <CurrentTimeLineExp />
 
-        <FavProjects />
+        {/* <FavProjects /> */}
 
         <AnimationContainer customClassName='w-full flex flex-col gap-5 mb-8'>
 
