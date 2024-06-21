@@ -4,6 +4,7 @@ import { useState } from 'react';
 import CardProject from './CardProject';
 import AnimationContainer from '../utils/AnimationContainer';
 import { CardProjectProps } from '@/types';
+import { title } from 'process';
 
 const allProjectsInfo: any[] = [
 
@@ -11,35 +12,29 @@ const allProjectsInfo: any[] = [
 
 const SearchAllProjects = () => {
 
-  const [projectSearch, setProjectSearch] = useState<string>('');
 
-  const resultSearch: CardProjectProps[] = allProjectsInfo.filter(project => project.category.includes(projectSearch.toLowerCase()))
+  const projects: CardProjectProps[] = [{
+    title: "Notekeeper",
+    des: "Your ultimate digital companion for productivity and creativity. Notekeeper is a cutting-edge CRUD (Create, Read, Update, Delete) Web Application meticulously crafted to streamline note-taking, task management, and quick design creation, alongside intuitive photo editing functionalities.",
+    repo: "https://github.com/MananDudhwala/Notekeeper",
+    link: "https://notekeeper-theta.vercel.app/",
+    category: 'personal'
+  },
+  {
+    title: "Razorpay payment intetgration",
+    des: "A web app designed to implement razorpay payment integration.",
+    repo: 'https://github.com/MananDudhwala/razorpay-payment-integration',
+    link: 'https://razorpay-payment-interation.vercel.app/',
+    category: "Personal"
+  }
+  ]
 
   return (
     <>
-      <AnimationContainer customClassName='w-full group flex flex-col justify-center items-center mb-8'>
-
-        <div className='w-full flex items-center lg:w-3/6 h-12 rounded shadow-lg bg-black border border-gray-800 group-hover:border-gray-500 transition-all ease'>
-
-          <div className='grid place-items-center h-full w-12 text-gray-500'>
-            <svg xmlns='http://www.w3.org/2000/svg' className='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
-              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='1' d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z' />
-            </svg>
-          </div>
-
-          <input
-            className='peer h-full w-full outline-none rounded text-sm text-white bg-black px-2 group-hover:border-gray-500 transition-all ease'
-            type='text'
-            id='search'
-            placeholder='Languages, frameworks, libraries, etc...'
-            onChange={e => setProjectSearch(e.target.value)} />
-        </div>
-
-      </AnimationContainer>
 
       <article className='w-full flex justify-center items-center content-center flex-wrap gap-6 mx-auto'>
         {
-          resultSearch.map(({ id, title, des, category, repo, link }) => <CardProject key={id} title={title} des={des} category={category} repo={repo} link={link} />)
+          projects.map(({ id, title, des, category, repo, link }) => <CardProject key={id} title={title} des={des} category={category} repo={repo} link={link} />)
         }
       </article>
     </>
