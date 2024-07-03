@@ -16,7 +16,7 @@ const AboutSection = () => {
         <AnimationContainer customClassName='w-full flex flex-col gap-5 mb-8'>
 
           <p className='text-base text-gray-400'>
-            I am a passionate and versatile developer with over {calculateDuration('2023-01-01', false)}+ of JavaScript experience and a constant interest in learning new technologies.Proficient in HTML, CSS, JavaScript,Typescript and modern frameworks like React.
+            I am a passionate and versatile developer with over {calculateDuration('2023-01-01', false)} of JavaScript experience and a constant interest in learning new technologies.Proficient in HTML, CSS, JavaScript,Typescript and modern frameworks like React.
           </p>
 
           <p className='text-base text-gray-400'>

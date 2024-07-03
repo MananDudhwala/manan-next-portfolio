@@ -10,7 +10,7 @@ const AboutMe = () => {
       </h2>
 
       <p className='text-base text-gray-400'>
-        I am a passionate and versatile developer with over {calculateDuration('2023-01-01', false)}+ of JavaScript experience and a constant interest in learning new technologies. Proficient in HTML, CSS, JavaScript, Typescript and modern frameworks like React. I have a proven track record of developing complete frontends from inception to implementation, integrating real-time communication and multimedia functionalities. I excel in optimizing performance, resolving technical issues, and ensuring seamless release cycles to deliver robust and user-centric solutions.
+        I am a passionate and versatile developer with over {calculateDuration('2023-01-01', false)} of JavaScript experience and a constant interest in learning new technologies. Proficient in HTML, CSS, JavaScript, Typescript and modern frameworks like React. I have a proven track record of developing complete frontends from inception to implementation, integrating real-time communication and multimedia functionalities. I excel in optimizing performance, resolving technical issues, and ensuring seamless release cycles to deliver robust and user-centric solutions.
       </p>
 
     </AnimationContainer>
