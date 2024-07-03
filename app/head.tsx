@@ -11,7 +11,7 @@ const Head = () => {
 
   const meta = {
     title: `Manan Dudhwala ${pathname === '/' ? '' : '· ' + titleFixedToShow}`,
-    description: `Hi! My name is Manan Dudhwala. I have +1 year of work experience in JavaScript and React.`,
+    description: `Hi! My name is Manan Dudhwala. I have 1+ year of work experience in JavaScript and React.`,
     keywords: 'Manan Dudhwala, mdev, Manan Dudhwala portfolio, mdv portfolio, Manan portfolio, manan dudhwala github, Manan Dudhwala github, Manan LinkedIn, Manan Dudhwala LinkedIn, Web, web developer, programmer, React, Typescript, Jest',
     type: 'website'
   };

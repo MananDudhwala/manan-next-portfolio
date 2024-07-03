@@ -5,7 +5,7 @@ export const skills = [
   },
   {
     title: 'Frameworks and libraries',
-    techs: ['jQuery', 'Angular', 'React', 'Next.js', 'Webpack']
+    techs: ['jQuery', 'React', 'Next.js', 'Webpack']
   },
   {
     title: 'JavaScript libraries',
