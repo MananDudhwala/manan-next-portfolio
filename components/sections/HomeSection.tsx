@@ -31,7 +31,7 @@ const HomeSection = () => {
           <h2 className='font-bold text-2xl md:text-2xl tracking-tight mb-2 text-white text-start'>Skills</h2>
 
           <p className='text-base text-gray-400'>
-            A look at all the programming languages, libraries, and tools I've worked with, I started programming about +{calculateDuration('2020-01-01', false)} ago. I have tried a few programming languages and technology stack, both Backend and Frontend.
+            A look at all the programming languages, libraries, and tools I've worked with so far. I have tried a few programming languages and technology stack, both Backend and Frontend.
           </p>
 
           <p className='text-base text-gray-400'>

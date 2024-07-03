@@ -16,7 +16,7 @@ const AboutSection = () => {
         <AnimationContainer customClassName='w-full flex flex-col gap-5 mb-8'>
 
           <p className='text-base text-gray-400'>
-            I am a passionate and versatile developer with over +{calculateDuration('2023-01-01', false)} of JavaScript experience and a constant interest in learning new technologies.Proficient in HTML, CSS, JavaScript,Typescript and modern frameworks like React.
+            I am a passionate and versatile developer with over {calculateDuration('2023-01-01', false)}+ of JavaScript experience and a constant interest in learning new technologies.Proficient in HTML, CSS, JavaScript,Typescript and modern frameworks like React.
           </p>
 
           <p className='text-base text-gray-400'>
@@ -34,7 +34,7 @@ const AboutSection = () => {
           <h2 className='font-bold text-2xl md:text-2xl tracking-tight mb-2 text-white text-start'>Skills</h2>
 
           <p className='text-base text-gray-400'>
-            A look at all the programming languages, libraries, and tools I've worked with, I started programming about +{calculateDuration('2020-01-01', false)} ago. I have tried a few programming languages and technology stack, both Backend and Frontend.
+            A look at all the programming languages, libraries, and tools I've worked with so far. I have tried a few programming languages and technology stack, both Backend and Frontend.
           </p>
 
           <p className='text-base text-gray-400'>
