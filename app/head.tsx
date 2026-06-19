@@ -11,8 +11,8 @@ const Head = () => {
 
   const meta = {
     title: `Manan Dudhwala ${pathname === '/' ? '' : '· ' + titleFixedToShow}`,
-    description: `Hi! My name is Manan Dudhwala. I have 1+ year of work experience in JavaScript and React.`,
-    keywords: 'Manan Dudhwala, mdev, Manan Dudhwala portfolio, mdv portfolio, Manan portfolio, manan dudhwala github, Manan Dudhwala github, Manan LinkedIn, Manan Dudhwala LinkedIn, Web, web developer, programmer, React, Typescript, Jest',
+    description: `Hi! My name is Manan Dudhwala. I'm a Full-Stack Developer with 3+ years of experience building end-to-end web applications using React, Next.js, Node.js, Express, and MongoDB.`,
+    keywords: 'Manan Dudhwala, mdev, Manan Dudhwala portfolio, full-stack developer, full stack developer, Node.js developer, React developer, Next.js developer, Express.js, MongoDB, REST API, backend developer, frontend developer, TypeScript, JavaScript, manan dudhwala github, Manan Dudhwala LinkedIn',
     type: 'website'
   };
 

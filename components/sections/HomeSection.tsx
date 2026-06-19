@@ -31,11 +31,7 @@ const HomeSection = () => {
           <h2 className='font-bold text-2xl md:text-2xl tracking-tight mb-2 text-white text-start'>Skills</h2>
 
           <p className='text-base text-gray-400'>
-            A look at all the programming languages, libraries, and tools I've worked with so far. I have tried a few programming languages and technology stack, both Backend and Frontend.
-          </p>
-
-          <p className='text-base text-gray-400'>
-            Event though the scope of web development is wide, I was very interested and focused on Frontend development.
+            A look at the programming languages, frameworks, libraries, and tools across my full-stack toolkit. I work confidently on both the client and server side, and I'm always expanding my expertise.
           </p>
 
           <div className='flex flex-col items-start gap-3 mt-3'>
