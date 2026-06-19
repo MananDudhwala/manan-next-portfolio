@@ -13,20 +13,28 @@ const allProjectsInfo: any[] = [
 const SearchAllProjects = () => {
 
 
-  const projects: CardProjectProps[] = [{
-    title: "Notekeeper",
-    des: "Your ultimate digital companion for productivity and creativity. Notekeeper is a cutting-edge CRUD (Create, Read, Update, Delete) Web Application meticulously crafted to streamline note-taking, task management, and quick design creation, alongside intuitive photo editing functionalities.",
-    repo: "https://github.com/MananDudhwala/Notekeeper",
-    link: "https://notekeeper-theta.vercel.app/",
-    category: 'personal'
-  },
-  {
-    title: "Razorpay payment intetgration",
-    des: "A web app designed to implement razorpay payment integration.",
-    repo: 'https://github.com/MananDudhwala/razorpay-payment-integration',
-    link: 'https://razorpay-payment-interation.vercel.app/',
-    category: "Personal"
-  }
+  const projects: CardProjectProps[] = [
+    {
+      title: "Voyager",
+      des: "A full-stack AI-powered travel planning application. Voyager lets users craft personalized itineraries with intelligent destination suggestions, real-time data, and a seamless booking experience — built end-to-end with Next.js, Node.js, and MongoDB.",
+      repo: "https://github.com/MananDudhwala/Voyager",
+      link: "https://github.com/MananDudhwala/Voyager",
+      category: 'Full-Stack'
+    },
+    {
+      title: "Notekeeper",
+      des: "A full-stack CRUD productivity application for streamlined note-taking, task management, quick design creation, and intuitive photo editing. Built with React and Node.js, deployed on Vercel.",
+      repo: "https://github.com/MananDudhwala/Notekeeper",
+      link: "https://notekeeper-theta.vercel.app/",
+      category: 'Full-Stack'
+    },
+    {
+      title: "Razorpay Payment Integration",
+      des: "A web application demonstrating end-to-end Razorpay payment gateway integration, including webhook handling, order creation via REST API, and a polished checkout UI.",
+      repo: 'https://github.com/MananDudhwala/razorpay-payment-integration',
+      link: 'https://razorpay-payment-interation.vercel.app/',
+      category: "Backend"
+    }
   ]
 
   return (

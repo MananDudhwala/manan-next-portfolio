@@ -16,7 +16,7 @@ const ProjectsSection = () => {
         <AnimationContainer customClassName='w-full flex flex-col gap-5 mb-8'>
 
           <p className='w-full text-base text-gray-400'>
-            These are a few projects I've done recently. If you want to see absolutely all my projects go to my <a href={myGithub} target='_blank' rel='noopener noreferrer' className='hover:text-white hover:underline transition-all ease'>github.com/MananDudhwala</a>.
+            A selection of full-stack projects I've built end-to-end — spanning frontend UIs, REST APIs, databases, and real-time features. For all my projects visit <a href={myGithub} target='_blank' rel='noopener noreferrer' className='hover:text-white hover:underline transition-all ease'>github.com/MananDudhwala</a>.
           </p>
 
         </AnimationContainer>

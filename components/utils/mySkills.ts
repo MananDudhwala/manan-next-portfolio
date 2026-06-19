@@ -1,30 +1,34 @@
 export const skills = [
   {
     title: 'Languages',
-    techs: ['HTML', 'CSS', 'JavaScript', 'TypeScript']
+    techs: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'SQL']
   },
   {
-    title: 'Frameworks and libraries',
-    techs: ['jQuery', 'React', 'Next.js', 'Webpack']
+    title: 'Frontend',
+    techs: ['React', 'Next.js', 'Redux', 'Webpack', 'Storybook']
   },
   {
-    title: 'JavaScript libraries',
-    techs: ['Redux', 'Jest', 'Reactflow (xyflow)', 'Lodash'],
+    title: 'Backend',
+    techs: ['Node.js', 'Express.js', 'REST APIs', 'Socket.IO', 'Firebase']
   },
   {
-    title: 'Preprocessors and css styles',
-    techs: ['Bootstrap', 'Tailwind', 'MaterialUI',]
+    title: 'Databases',
+    techs: ['MongoDB', 'PostgreSQL', 'Mongoose']
   },
   {
-    title: 'Backend stack',
-    techs: ['Node.js', 'Express.js', 'MongoDB', 'Postman', 'Firebase']
+    title: 'Testing & Quality',
+    techs: ['Jest', 'ESLint', 'Husky', 'WCAG 2.0']
   },
   {
-    title: 'Softwares and tools',
-    techs: ['VS Code', 'Jira', 'Git', 'GitHub', 'Bitbucket', 'ESLint', 'Husky', 'Figma',]
+    title: 'Styling',
+    techs: ['Tailwind CSS', 'Material UI', 'Bootstrap', 'SCSS']
   },
   {
-    title: 'Agile methodologies and coding principles',
-    techs: ['GitFlow', 'SCRUM', 'Clean Code', 'SOLID', 'Clean Architecture', 'Pixel perfect']
+    title: 'Tools & DevOps',
+    techs: ['Git', 'GitHub', 'Bitbucket', 'Docker', 'Postman', 'Jira', 'VS Code', 'Figma']
+  },
+  {
+    title: 'Methodologies',
+    techs: ['GitFlow', 'SCRUM', 'Kanban', 'Clean Code', 'SOLID', 'Clean Architecture', 'Pixel Perfect']
   },
 ];

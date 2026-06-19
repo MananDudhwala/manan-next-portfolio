@@ -16,14 +16,16 @@ const AboutSection = () => {
         <AnimationContainer customClassName='w-full flex flex-col gap-5 mb-8'>
 
           <p className='text-base text-gray-400'>
-            I am a passionate and versatile developer with over {calculateDuration('2023-01-01', false)} of JavaScript experience and a constant interest in learning new technologies.Proficient in HTML, CSS, JavaScript,Typescript and modern frameworks like React.
+            I am a passionate Full-Stack Developer with over {calculateDuration('2023-01-01', false)} of professional experience building scalable, end-to-end web applications. I'm proficient across the full stack — crafting pixel-perfect, accessible frontends with React, Next.js, and TypeScript, while engineering performant backends with Node.js, Express, and MongoDB.
           </p>
 
           <p className='text-base text-gray-400'>
-            I have a proven track record of developing complete frontends from inception to implementation, integrating real-time communication and multimedia functionalities.          </p>
+            I have a proven track record of delivering complete products from conception to production: architecting REST APIs, integrating real-time communication with Socket.IO, and building responsive UIs that users love.
+          </p>
 
           <p className='text-base text-gray-400'>
-            I excel in optimizing performance, resolving technical issues, and ensuring seamless release cycles to deliver robust and user-centric solutions.          </p>
+            I thrive in agile environments, excel at performance optimization and clean architecture, and am constantly expanding my skills across the entire development lifecycle.
+          </p>
 
         </AnimationContainer>
 
@@ -34,11 +36,7 @@ const AboutSection = () => {
           <h2 className='font-bold text-2xl md:text-2xl tracking-tight mb-2 text-white text-start'>Skills</h2>
 
           <p className='text-base text-gray-400'>
-            A look at all the programming languages, libraries, and tools I've worked with so far. I have tried a few programming languages and technology stack, both Backend and Frontend.
-          </p>
-
-          <p className='text-base text-gray-400'>
-            Event though the scope of web development is wide, I was very interested and focused on Frontend development.
+            A look at the programming languages, frameworks, libraries, and tools across my full-stack toolkit. I work confidently on both the client and server side, and I'm always expanding my expertise.
           </p>
 
           <div className='flex flex-col items-start gap-3 mt-3'>

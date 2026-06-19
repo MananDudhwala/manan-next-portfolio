@@ -1,12 +1,13 @@
 'use client';
 
+import React from 'react';
 import styles from '../../styles/mobileMenu.module.css';
 import { useEffect } from 'react';
 import cn from 'classnames';
 import useMenuNav from '@/hooks/useMenuNav';
 import LinksMenuNav from './LinksMenuNav';
 
-const MenuIcon = (props: JSX.IntrinsicElements['svg']) => {
+const MenuIcon = (props: React.JSX.IntrinsicElements['svg']) => {
   return (
     <svg
       className='h-5 w-5 absolute text-gray-100'
@@ -33,7 +34,7 @@ const MenuIcon = (props: JSX.IntrinsicElements['svg']) => {
   );
 }
 
-const CrossIcon = (props: JSX.IntrinsicElements['svg']) => {
+const CrossIcon = (props: React.JSX.IntrinsicElements['svg']) => {
   return (
     <svg
       className='h-5 w-5 absolute text-gray-100'
